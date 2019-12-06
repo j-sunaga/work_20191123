@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## オンライン生チーム開発用アプリ
 
-Things you may want to cover:
+### バージョン
+Ruby:2.6.3
 
-* Ruby version
+Rails:5.2.3
 
-* System dependencies
 
-* Configuration
+### テーブル設計
+#### blogs
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+|culumn  |type  |
+|---|---|
+|id  |integer  |
+|title |string  |
+|content |text  |
