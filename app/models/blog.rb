@@ -1,4 +1,4 @@
 class Blog < ApplicationRecord
-  validates :title, presence: true #titleを空で登録できないように検証
-
+  validates :title, presence: true #titleの空データのバリデーション
+  validates :content, presence: true, length:{in: 1..200}
 end
